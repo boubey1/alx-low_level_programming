@@ -4,6 +4,11 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * int main(void) - function that run the code
+ * Description: these line will show if n is positive, negative or equal to zero
+ * Return: the value is 0
+ */
 int main(void)
 {
 	int n;
