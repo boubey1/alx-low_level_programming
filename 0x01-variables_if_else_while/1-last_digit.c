@@ -19,20 +19,19 @@ int main(void)
 	/* your code goes there */
 	last_digit = n % (10);
 
-	if (last_digit > 5)
+	switch (last_digit)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
-	}
-
-	else if(last_digit == 0)
-	{
-		printf("Last digit of %d is %d and is 0\n", n, last_digit);
-	}
-
-	else((last_digit < 6) && (last_digit != 0));
-	{
-		printf("Last digit of %d is %d", n, last_digit);
-		printf(" and is less than 6 and not 0\n");
+		case > 5:
+			printf("Last digit of %d is %d and is greater than 5\n", n, last_digit);
+			break;
+		case 0:
+			printf("Last digit of %d is %d and is 0\n", n, last_digit);
+			break;
+		case < 6:
+		case ! 0:
+			printf("Last digit of %d is %d", n, last_digit);
+			printf(" and is less than 6 and not 0\n");
+			break;
 	}
 	return (0);
 }
