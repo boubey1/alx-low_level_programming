@@ -13,12 +13,12 @@ int main(void)
 {
 	char letter = 'a';
 
-	while (letter <	'{')
+	while (letter <	'z' + 1)
 	{
 	putchar(letter);
 	letter++;
 	}
-	if (letter == '{')
+	if (letter == 'z' + 1)
 	{
 		putchar('\n');
 	}
