@@ -18,9 +18,12 @@ int main(void)
 	while (digit < 10)
 	{
 		putchar((digit % 10) + '0');
-		putchar(',');
-		putchar(' ');
-		digit++;
+		if (digit < 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	digit++;
 	}
 	if (digit == 10)
 	{
