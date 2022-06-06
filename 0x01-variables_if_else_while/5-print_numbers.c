@@ -17,7 +17,7 @@ int main(void)
 	{
 		printf("%d", digit);
 		digit++;
-		if (digit == 9)
+		if (digit == 10)
 		{
 			putchar('\n');
 		}
