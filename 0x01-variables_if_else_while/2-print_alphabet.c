@@ -13,10 +13,9 @@ int main(void)
 {
 	char letter = 'a';
 
-	while (letter != ('z' + 1))
+	while (letter <	'{')
 	{
 	putchar(letter);
-	putchar('\n');
 	letter++;
 	}
 	return (0);
