@@ -18,5 +18,9 @@ int main(void)
 	putchar(letter);
 	letter++;
 	}
+	if (letter == '{')
+	{
+		putchar('\n');
+	}
 	return (0);
 }
