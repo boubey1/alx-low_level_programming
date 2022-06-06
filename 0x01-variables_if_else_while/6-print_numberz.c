@@ -15,7 +15,7 @@ int main(void)
 
 	while (digit < 10)
 	{
-		putchar(digit);
+		putchar(digit%10 + '0');
 		digit++;
 		if (digit == 10)
 		{
