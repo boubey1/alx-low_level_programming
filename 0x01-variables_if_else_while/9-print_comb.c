@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - printing all combinaison of single digit number 
+ * main - printing all combinaison of single digit number
  *
  * Description: only using function puts
  *
@@ -12,9 +12,10 @@
 int main(void)
 {
 	int digit;
+
 	digit = 0;
-	
-	while (digit <= 9)
+
+	while (digit < 10)
 	{
 		putchar((digit % 10) + '0');
 		putchar(',');
