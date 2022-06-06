@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * main - printing numbers 
+ * main - printing numbers
  *
  * Description: all single digit numbers of base 10 from 0
  *
@@ -16,11 +16,11 @@ int main(void)
 	while (digit < 10)
 	{
 		printf("%d", digit);
-	digit++;
-	}
-	if (digit == 9)
-	{
-		putchar('\n');
+		digit++;
+		if (digit == 9)
+		{
+			putchar('\n');
+		}
 	}
 	return (0);
 }
