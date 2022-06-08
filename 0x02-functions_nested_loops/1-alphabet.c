@@ -5,21 +5,18 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
 	char letter = 'a';
 	
 	while (letter < 'z' + 1)
 	{
-		void print_alphabet(void);
+		_putchar(letter);
+		letter++;
+		if ((letter = 'z'))
 		{
-			_putchar(letter);
+			_putchar('\n');
 		}
-	letter++;
-	}
-	if ((letter = 'z'))
-	{
-		_putchar('\n');
 	}
 	return (0);
 }
