@@ -17,7 +17,7 @@ int main(void)
 		}
 	letter++;
 	}
-	if (letter = 'z')
+	if ((letter = 'z'))
 	{
 		_putchar('\n');
 	}
