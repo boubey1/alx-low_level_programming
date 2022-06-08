@@ -2,7 +2,6 @@
 
 /**
  * main - writes _putchar
- * @c: The character to print
  *
  * Return: Always 0
  */
