@@ -6,9 +6,7 @@
  */
 void jack_bauer(void)
 {
-	int number;
-	int mult;
-	int prod;
+	int number, mult, prod;
 
 	for (number = 0; number <= 9; number++)
 	{
