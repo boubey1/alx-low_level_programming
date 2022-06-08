@@ -5,7 +5,7 @@
  * @c: will be tested if a letter (lowercase or uppercase)
  * Return: if a lowercase 1 ifnot 0
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
