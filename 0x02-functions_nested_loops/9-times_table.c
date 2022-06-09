@@ -4,7 +4,7 @@
  * times_table - Print the times tables 0 to 9
  *
  */
-void jack_bauer(void)
+void times_table(void)
 {
 	int number = 0;
 	int mult;
