@@ -26,6 +26,9 @@ int main(void)
 		{
 			printf("%d ", count);
 		}
+		if (count == 100)
+			continue;
+		printf(" ");
 	}
 	printf("\n");
 	return (0);
