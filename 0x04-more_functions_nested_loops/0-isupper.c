@@ -3,7 +3,7 @@
 /**
  * _isupper - it checks if the letter is uppercase
  * @c: the variable to be checked
- * Return: returns the value of c (0 ou 1)
+ * Return: returns 0 ou 1
  */
 int _isupper(int c)
 {
@@ -11,11 +11,10 @@ int _isupper(int c)
 
 	if (c >= 'A' && c <= 'Z')
 	{
-		c = 1;
+		return (1);
 	}
 	else
 	{
-		c = 0;
+		return (0);
 	}
-	return (c);
 }
