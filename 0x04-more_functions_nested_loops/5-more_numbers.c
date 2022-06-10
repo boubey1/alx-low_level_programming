@@ -5,12 +5,12 @@
  */
 void more_numbers(void)
 {
-	int number;
+	int number = 0;
 	int xtime = 1;
 
 	while (xtime <= 10)
 	{
-		for (number = 0; number <= 14; number++)
+		while (number <= 14)
 		{
 			if (number < 10)
 			{
@@ -20,9 +20,9 @@ void more_numbers(void)
 			{
 				_putchar((number / 10) + '0');
 			}
+			number++;
 		}
-	_putchar('\n');
-	xtime++;
+		xtime++;
+		_putchar('\n');
 	}
 }
-
