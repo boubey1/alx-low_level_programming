@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * list_len - a function to search the number of 
+ * list_len - a function to search the number of
  *            elements in a given linked list_t list.
  * @h: argument of the list_t list.
  *
