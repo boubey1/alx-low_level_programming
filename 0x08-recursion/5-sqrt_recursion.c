@@ -4,7 +4,7 @@
 /**
  * square_of_nb - a function to determine the square root
  * @nb: The initial number to look for the square root
- * @init_root: The root 
+ * @init_root: The root
  *
  * Return: the value of the root, if not -1
  */
