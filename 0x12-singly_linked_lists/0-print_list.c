@@ -54,20 +54,20 @@ size_t print_list(const list_t *h)
 		{
 			char *str = h->str;
 
-			str = "[0] (nil]";
+			*str = "[0] (nil]";
 
 			_putchar(*str);
 /*
-			_putchar('[');
-			_putchar('0');
-			_putchar(']');
-			_putchar(' ');
-			_putchar('(');
-			_putchar('n');
-			_putchar('i');
-			_putchar('l');
-			_putchar(')');
-			_putchar('\n');
+*			_putchar('[');
+*			_putchar('0');
+*			_putchar(']');
+*			_putchar(' ');
+*			_putchar('(');
+*			_putchar('n');
+*			_putchar('i');
+*			_putchar('l');
+*			_putchar(')');
+*			_putchar('\n');
 */
 }
 		else
