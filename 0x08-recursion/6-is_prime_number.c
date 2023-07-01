@@ -10,7 +10,7 @@
  */
 int prime_div_check(int nb, int prime_divisor)
 {
-	if (nb % prime_divisor == 0) 
+	if (nb % prime_divisor == 0)
 		return (0);
 
 	if (prime_divisor == nb / 2)
