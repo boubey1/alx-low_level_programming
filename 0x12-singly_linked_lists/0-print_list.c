@@ -9,24 +9,45 @@
 
 size_t print_list(const list_t *h)
 {
-    size_t count = 0;
-    const list_t *str = h;
+	size_t nodes = 0;
 
-    while (str != NULL)
-    {
-        int digit = str->data;
+	while (h)
+	{
+		if (h->str == NULL)
+		{
+			_putchar('[');
+			_putchar('0');
+			_putchar(']');
+			_putchar(' ');
+			_putchar('(');
+			_putchar('n');
+			_putchar('i');
+			_putchar('l');
+			_putchar(')');
+			_putchar('\n');
+		}
+		else
+		{
+			int len = h->len;
+			char *str = h->str;
 
-        char ch = '0' + digit;
+			_putchar('[');
+			print_number(len); // Helper function to print an integer
+			_putchar(']');
+			_putchar(' ');
 
-        _putchar(ch);
+			while (*str)
+			{
+				_putchar(*str);
+				str++;
+			}
 
+			_putchar('\n');
+		}
 
-        _putchar(' ');
+		nodes++;
+		h = h->next;
+	}
 
-        str = str->next;
-        count++;
-    }
-
-    return count;
+	return nodes;
 }
-
