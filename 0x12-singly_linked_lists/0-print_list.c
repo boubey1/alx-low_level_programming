@@ -1,19 +1,6 @@
 #include "lists.h"
 
 /**
- * _putchar - function that reproduce putchar to print
- * @c: The parameter
- *
- * Return: 1.
- * 
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
-
-/**
  * print_list - a function that prints the elements contained in a list_t list
  * @h: The list to be printed (list_t list).
  *
