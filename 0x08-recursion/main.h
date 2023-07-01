@@ -22,5 +22,8 @@ int is_palindrome(char *s);
 int val_strlen(char *s);
 int test_palindrome(char *s, int length, int addr);
 int wildcmp(char *s1, char *s2);
+int strlen_esc_wild_c(char *str);
+void find_no_wild_c(char **wild_str);
+char *check_for_wild(char *str, char *prev);
 
 #endif
