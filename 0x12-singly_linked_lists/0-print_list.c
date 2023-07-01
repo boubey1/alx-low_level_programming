@@ -8,33 +8,32 @@
 
 void print_number(int num)
 {
-    if (num == 0)
-    {
-        _putchar('0');
-        return;
-    }
+	if (num == 0)
+	{
+		_putchar('0');
+		return;
+	}
 
-    if (num < 0)
-    {
-        _putchar('-');
-        num = -num;
-    }
+	if (num < 0)
+	{
+		_putchar('-');
+		num = -num;
+	}
+	int divisor = 1;
 
-    int divisor = 1;
-    while (num / divisor > 9)
-    {
-        divisor *= 10;
-    }
+	while (num / divisor > 9)
+	{
+		divisor *= 10;
+	}
+	while (divisor != 0)
+	{
+		int digit = num / divisor;
 
-    while (divisor != 0)
-    {
-        int digit = num / divisor;
-        _putchar('0' + digit);
-        num %= divisor;
-        divisor /= 10;
-    }
+		_putchar('0' + digit);
+		num %= divisor;
+		divisor /= 10;
+	}
 }
-
 
 /**
  * print_list - a function that prints the elements contained in a list_t list
@@ -51,16 +50,7 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str == NULL)
 		{
-			_putchar('[');
-			_putchar('0');
-			_putchar(']');
-			_putchar(' ');
-			_putchar('(');
-			_putchar('n');
-			_putchar('i');
-			_putchar('l');
-			_putchar(')');
-			_putchar('\n');
+			_putchar("[0] (nil)\n");
 		}
 		else
 		{
@@ -68,7 +58,7 @@ size_t print_list(const list_t *h)
 			char *str = h->str;
 
 			_putchar('[');
-			print_number(len); // Helper function to print an integer
+			print_number(len);
 			_putchar(']');
 			_putchar(' ');
 
@@ -85,5 +75,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 	}
 
-	return nodes;
+	return (nodes);
 }

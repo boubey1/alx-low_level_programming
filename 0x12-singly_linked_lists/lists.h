@@ -6,7 +6,7 @@
 
 /**
  * struct list_s - struct list
- * @str: the linked string 
+ * @str: the linked string
  * @len: the length of the linked string
  * @next: next node pointing
  *
