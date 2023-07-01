@@ -38,8 +38,9 @@ void print_number(int num)
 }
 
 /**
- * print_list - a function that prints the elements contained in a list_t list
- * @h: The list to be printed (list_t list).
+ * print_list - a function that prints
+ *           the elements contained in a list_t list
+ * @h: The list to be printed
  *
  * Return: number of nodes.
  */
@@ -52,23 +53,18 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str == NULL)
 		{
-			char *str = h->str;
 
-			*str = "[0] (nil]";
+			_putchar('[');
+			_putchar('0');
+			_putchar(']');
+			_putchar(' ');
+			_putchar('(');
+			_putchar('n');
+			_putchar('i');
+			_putchar('l');
+			_putchar(')');
+			_putchar('\n');
 
-			_putchar(*str);
-/*
-*			_putchar('[');
-*			_putchar('0');
-*			_putchar(']');
-*			_putchar(' ');
-*			_putchar('(');
-*			_putchar('n');
-*			_putchar('i');
-*			_putchar('l');
-*			_putchar(')');
-*			_putchar('\n');
-*/
 }
 		else
 		{
