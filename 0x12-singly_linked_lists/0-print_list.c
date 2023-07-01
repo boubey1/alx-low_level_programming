@@ -1,6 +1,42 @@
 #include "lists.h"
 
 /**
+ * print_number - function to print nb
+ * @num: the argument
+ *
+ */
+
+void print_number(int num)
+{
+    if (num == 0)
+    {
+        _putchar('0');
+        return;
+    }
+
+    if (num < 0)
+    {
+        _putchar('-');
+        num = -num;
+    }
+
+    int divisor = 1;
+    while (num / divisor > 9)
+    {
+        divisor *= 10;
+    }
+
+    while (divisor != 0)
+    {
+        int digit = num / divisor;
+        _putchar('0' + digit);
+        num %= divisor;
+        divisor /= 10;
+    }
+}
+
+
+/**
  * print_list - a function that prints the elements contained in a list_t list
  * @h: The list to be printed (list_t list).
  *
