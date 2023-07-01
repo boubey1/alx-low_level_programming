@@ -50,7 +50,7 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str == NULL)
 		{
-			_putchar("[0] (nil)\n");
+			_putchar("P");
 		}
 		else
 		{
