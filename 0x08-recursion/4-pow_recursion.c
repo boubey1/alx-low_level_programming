@@ -2,10 +2,10 @@
 
 /**
  * _pow_recursion - a function to give the value of x raised to the power of y.
- * @x: first value to be treated 
+ * @x: first value to be treated
  * @y: second value to express the power.
  *
- * Return: pwr 
+ * Return: pwr
  */
 
 int _pow_recursion(int x, int y)
