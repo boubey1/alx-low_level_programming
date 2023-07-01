@@ -18,7 +18,7 @@ size_t print_list(const list_t *h)
 
 		else
 			
-			_putchar(list_t[h->len], list_t[h->str]);
+			_putchar(h->len, h->str);
 
 		nb_node++;
 		h = h->next;
