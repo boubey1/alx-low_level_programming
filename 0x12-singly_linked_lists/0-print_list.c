@@ -9,21 +9,24 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t nb_node = 0;
-	
-	while (h)
-	{
-		if (h->str == NULL)
-			_putchar(list_t["[0] (nil)\n"];
+    size_t count = 0;
+    const list_t *str = h;
 
-		else
-			
-			_putchar(h->len, h->str);
+    while (str != NULL)
+    {
+        int digit = str->data;
 
-		nb_node++;
-		h = h->next;
-	}
+        char ch = '0' + digit;
 
-	return (nb_node);
+        _putchar(ch);
+
+
+        _putchar(' ');
+
+        str = str->next;
+        count++;
+    }
+
+    return count;
 }
 
