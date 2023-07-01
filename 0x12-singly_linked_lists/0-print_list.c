@@ -9,6 +9,7 @@
 void print_number(int num)
 {
 	int divisor = 1;
+
 	if (num == 0)
 	{
 		_putchar('0');
@@ -51,7 +52,16 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str == NULL)
 		{
-			_putchar('P');
+			_putchar('[');
+			_putchar('0');
+			_putchar(']');
+			_putchar(' ');
+			_putchar('(');
+			_putchar('n');
+			_putchar('i');
+			_putchar('l');
+			_putchar(')');
+			_putchar('\n');
 		}
 		else
 		{
