@@ -52,6 +52,12 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str == NULL)
 		{
+			char *str = h->str;
+
+			str = "[0] (nil]";
+
+			_putchar(*str);
+/*
 			_putchar('[');
 			_putchar('0');
 			_putchar(']');
@@ -62,7 +68,8 @@ size_t print_list(const list_t *h)
 			_putchar('l');
 			_putchar(')');
 			_putchar('\n');
-		}
+*/
+}
 		else
 		{
 			int len = h->len;
