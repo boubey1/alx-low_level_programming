@@ -19,6 +19,8 @@ int square_of_nb(int nb, int init_root);
 int prime_div_check(int nb, int prime_divisor);
 int is_prime_number(int n);
 int is_palindrome(char *s);
+int val_strlen(char *s);
+int test_palindrome(char *s, int length, int addr);
 int wildcmp(char *s1, char *s2);
 
 #endif
