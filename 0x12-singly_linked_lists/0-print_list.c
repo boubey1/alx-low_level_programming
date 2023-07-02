@@ -81,13 +81,10 @@ size_t print_list(const list_t *h)
 				_putchar(*str);
 				str++;
 			}
-
 			_putchar('\n');
 		}
-
 		nodes++;
 		h = h->next;
 	}
-
-	return (nodes);
+return (nodes);
 }
