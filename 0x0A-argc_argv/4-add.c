@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * printf_pnumber - function to print only positive numbers
+ * main - function to print only positive numbers
  * @argc: give the number of arguments in the function
  * @argv: is an array of type char of pointers to the arguments
  *
  * Return: If non-digits returns 1, otherwise returns 0
  */
 
-int printf_pnumber(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int nb, element, add = 0;
 
@@ -29,16 +29,5 @@ int printf_pnumber(int argc, char *argv[])
 	printf("%d\n", add);
 
 	return (0);
-}
-
-/**
- *main - to execute the program
- *
- */
-
-void main(void)
-{
-	printf_pnumber(argc, argv);
-
 }
 

@@ -12,11 +12,7 @@
  * Return: 0
  */
 
-int printf_all_arg(int argc, char *argv[]);
-int print_rlt_mult(int argc, char *argv[]);
-int printf_pnumber(int argc, char *argv[]);
-int name_is(int __attribute__((__unused__)) argc, char *argv[]);
-int printf_arg(int argc, char __attribute__((__unused__)) *argv[]);
+int main(int __attribute__((__unused__)) argc, char *argv[]);
 
 
 #endif

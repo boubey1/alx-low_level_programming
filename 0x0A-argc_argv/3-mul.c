@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_rlt_mult - function to print the result of a
+ * main - function to print the result of a
  *      multiplication of two digits
  * @argc: give the number of arguments in the function
  * @argv: is an array of type char of pointers to the arguments
  *
  * Return: returns 0 if success, otherwise 1.
  */
-int print_rlt_mult(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int nb1, nb2, result;
 
@@ -25,16 +25,5 @@ int print_rlt_mult(int argc, char *argv[])
 	printf("%d\n", result);
 
 	return (0);
-}
-
-/**
- *main - to execute the program
- *
- */
-
-void main(void)
-{
-	print_rlt_mult(argc, argv);
-
 }
 

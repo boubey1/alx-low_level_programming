@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * min_nb - Gives the minimum coins number to
+ * main - Gives the minimum coins number to
  *        do the change
  * @argc: give the number of arguments in the function
  * @argv: is an array of type char of pointers to the arguments
@@ -9,7 +9,7 @@
  * Return: if error returns 1, otherwise returns 0
  */
 
-int min_nb(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int value_cents, nb_coins = 0;
 
