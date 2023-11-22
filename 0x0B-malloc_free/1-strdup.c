@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * _strdup: a function to returns a pointer for an allocated
+ * _strdup - a function to returns a pointer for an allocated
  * memory
  * @str: the string to whom a memory mush be allocated
  *
