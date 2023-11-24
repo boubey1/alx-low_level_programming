@@ -11,11 +11,9 @@
  */
 int *array_range(int min, int max)
 {
-	int *tab;
-	int i = 0;
-	int len = 0;
-	len = max - min + 1;
+	int *tab, i, len;
 
+	len = max - min + 1;
 	if (min > max)
 		return ('\0');
 
