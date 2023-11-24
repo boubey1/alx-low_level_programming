@@ -4,7 +4,7 @@
 /**
  * _calloc - function to allocate memory to an array
  * @nmemb: number of the elements.
- * @size: The size 
+ * @size: The size
  *
  * Return: NULL If function faillure, nmemb = 0, size = 0,
  *         f success returns a pointer to the new allocated memory
