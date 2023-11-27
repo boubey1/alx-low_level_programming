@@ -2,7 +2,7 @@
 
 /**
  * main - the function prints only the name of the file which contains
- * 		the program compiled and a new line at the end of the name
+ *		the program compiled and a new line at the end of the name
  *
  * Return: 0
  */
