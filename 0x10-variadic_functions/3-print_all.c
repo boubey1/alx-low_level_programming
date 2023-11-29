@@ -6,7 +6,12 @@ void _float_printer(va_list arg);
 void _string_printer(va_list arg);
 
 
-
+/**
+ * _int_printing - function print integers
+ * @arg:  argument types
+ *
+ * Description: result
+ */
 void _int_printing(va_list arg)
 {
 	int nb;
@@ -14,7 +19,12 @@ void _int_printing(va_list arg)
 	nb = va_arg(arg, int);
 	printf("%d", nb);
 }
-
+/**
+ * _string_printer - function print strings
+ * @arg:  argument types
+ *
+ * Description: result
+ */
 void _string_printer(va_list arg)
 {
 	char *str;
@@ -29,7 +39,12 @@ void _string_printer(va_list arg)
 
 	printf("%s", str);
 }
-
+/**
+ * _float_printer - function print float
+ * @arg:  argument types
+ *
+ * Description: result
+ */
 void _float_printer(va_list arg)
 {
 	float nb;
@@ -37,7 +52,12 @@ void _float_printer(va_list arg)
 	nb = va_arg(arg, double);
 	printf("%f", nb);
 }
-
+/**
+ * _char_printing - function print char
+ * @arg:  argument types
+ *
+ * Description: result
+ */
 void _char_printing(va_list arg)
 {
 	char alphabet;
