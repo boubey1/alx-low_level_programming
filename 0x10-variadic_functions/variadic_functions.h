@@ -5,16 +5,16 @@
 #include <stdio.h>
 
 /**
- * struct printer - struct type defining a printer
+ * struct printing - struct type defining a printer
  * @symbol: data type.
  * @print: function pointer to a function to print symbol
  */
-typedef struct printer
+typedef struct printing
 {
 	char *symbol;
 	void (*print)(va_list arg);
 
-} printer_t;
+} printing_t;
 
 int sum_them_all(const unsigned int n, ...);
 void print_numbers(const char *separator, const unsigned int n, ...);
