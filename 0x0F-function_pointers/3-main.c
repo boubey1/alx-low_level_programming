@@ -24,7 +24,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		printf("Error\n");
 		exit(100);
 	}
-	
+
 	else if (argc != 4)
 	{
 		printf("Error\n");
@@ -37,7 +37,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 		exit(99);
 	}
 	else
-	
+
 	printf("%d\n", get_op_func(ope)(arg1, arg2));
 
 	return (0);
