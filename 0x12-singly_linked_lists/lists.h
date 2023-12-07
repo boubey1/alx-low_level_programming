@@ -11,7 +11,7 @@
  * @len: len of the string
  * @next: next node address
  *
- * Description: singly linked list 
+ * Description: singly linked list
  */
 typedef struct list_s
 {
@@ -27,4 +27,4 @@ list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 void __attribute__((constructor)) print_story(void);
 
-#endif 
+#endif
