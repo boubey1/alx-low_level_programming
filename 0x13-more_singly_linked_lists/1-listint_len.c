@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * listint_len - Returns the number of elements
- *               in a linked listint_t list.
- * @h: A pointer to the head of the listint_t list.
+ * listint_len - number of elements
+ * @h: pointer
  *
- * Return: The number of elements in the listint_t list.
+ * Return: number of elements in list
  */
 size_t listint_len(const listint_t *h)
 {
